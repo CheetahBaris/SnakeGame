@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SnakeGame",
+			"Path": "D:\\Snake Game UE4\\SnakeGame\\Source\\SnakeGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SnakeGameEditor",
+			"Path": "D:\\Snake Game UE4\\SnakeGame\\Source\\SnakeGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
