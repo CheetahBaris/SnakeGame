@@ -92,7 +92,7 @@ template<> SNAKEGAME_API UClass* StaticClass<class ASnakeBase>();
 
 #define FOREACH_ENUM_EMOVMENTDIRECTION(op) \
 	op(EMovmentDirection::UP) \
-	op(EMovmentDirection::DOWM) \
+	op(EMovmentDirection::DOWN) \
 	op(EMovmentDirection::LEFT) \
 	op(EMovmentDirection::RIGHT) 
 

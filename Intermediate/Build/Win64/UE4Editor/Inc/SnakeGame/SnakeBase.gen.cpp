@@ -35,7 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeSnakeBase() {}
 		return EMovmentDirection_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EMovmentDirection(EMovmentDirection_StaticEnum, TEXT("/Script/SnakeGame"), TEXT("EMovmentDirection"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_SnakeGame_EMovmentDirection_Hash() { return 4214091620U; }
+	uint32 Get_Z_Construct_UEnum_SnakeGame_EMovmentDirection_Hash() { return 654611761U; }
 	UEnum* Z_Construct_UEnum_SnakeGame_EMovmentDirection()
 	{
 #if WITH_HOT_RELOAD
@@ -48,13 +48,13 @@ void EmptyLinkFunctionForGeneratedCodeSnakeBase() {}
 		{
 			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
 				{ "EMovmentDirection::UP", (int64)EMovmentDirection::UP },
-				{ "EMovmentDirection::DOWM", (int64)EMovmentDirection::DOWM },
+				{ "EMovmentDirection::DOWN", (int64)EMovmentDirection::DOWN },
 				{ "EMovmentDirection::LEFT", (int64)EMovmentDirection::LEFT },
 				{ "EMovmentDirection::RIGHT", (int64)EMovmentDirection::RIGHT },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
-				{ "DOWM.Name", "EMovmentDirection::DOWM" },
+				{ "DOWN.Name", "EMovmentDirection::DOWN" },
 				{ "LEFT.Name", "EMovmentDirection::LEFT" },
 				{ "ModuleRelativePath", "SnakeBase.h" },
 				{ "RIGHT.Name", "EMovmentDirection::RIGHT" },
@@ -100,9 +100,9 @@ void EmptyLinkFunctionForGeneratedCodeSnakeBase() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ElementSize;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MovmentSpeed_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MovementSpeed_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MovmentSpeed;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MovementSpeed;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SnakeElements_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SnakeElements_MetaData[];
@@ -142,12 +142,12 @@ void EmptyLinkFunctionForGeneratedCodeSnakeBase() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASnakeBase_Statics::NewProp_ElementSize = { "ElementSize", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASnakeBase, ElementSize), METADATA_PARAMS(Z_Construct_UClass_ASnakeBase_Statics::NewProp_ElementSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASnakeBase_Statics::NewProp_ElementSize_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASnakeBase_Statics::NewProp_MovmentSpeed_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASnakeBase_Statics::NewProp_MovementSpeed_MetaData[] = {
 		{ "Category", "SnakeBase" },
 		{ "ModuleRelativePath", "SnakeBase.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASnakeBase_Statics::NewProp_MovmentSpeed = { "MovmentSpeed", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASnakeBase, MovmentSpeed), METADATA_PARAMS(Z_Construct_UClass_ASnakeBase_Statics::NewProp_MovmentSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASnakeBase_Statics::NewProp_MovmentSpeed_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASnakeBase_Statics::NewProp_MovementSpeed = { "MovementSpeed", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASnakeBase, MovementSpeed), METADATA_PARAMS(Z_Construct_UClass_ASnakeBase_Statics::NewProp_MovementSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASnakeBase_Statics::NewProp_MovementSpeed_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASnakeBase_Statics::NewProp_SnakeElements_Inner = { "SnakeElements", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ASnakeElementBase_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASnakeBase_Statics::NewProp_SnakeElements_MetaData[] = {
@@ -165,7 +165,7 @@ void EmptyLinkFunctionForGeneratedCodeSnakeBase() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASnakeBase_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASnakeBase_Statics::NewProp_SnakeElementClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASnakeBase_Statics::NewProp_ElementSize,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASnakeBase_Statics::NewProp_MovmentSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASnakeBase_Statics::NewProp_MovementSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASnakeBase_Statics::NewProp_SnakeElements_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASnakeBase_Statics::NewProp_SnakeElements,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASnakeBase_Statics::NewProp_LastMoveDirection_Underlying,
@@ -198,7 +198,7 @@ void EmptyLinkFunctionForGeneratedCodeSnakeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASnakeBase, 768181152);
+	IMPLEMENT_CLASS(ASnakeBase, 3014678449);
 	template<> SNAKEGAME_API UClass* StaticClass<ASnakeBase>()
 	{
 		return ASnakeBase::StaticClass();

@@ -11,7 +11,7 @@ UENUM()
 enum class EMovmentDirection
 {
 	UP,
-	DOWM,
+	DOWN,
 	LEFT,
 	RIGHT
 };
@@ -34,8 +34,7 @@ public:
 		float ElementSize;
 
 	UPROPERTY(EditDefaultsOnly)
-		float MovmentSpeed;
-
+		float MovementSpeed;
 
 	UPROPERTY()
 		TArray<ASnakeElementBase*> SnakeElements;
@@ -49,7 +48,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	void AddSnakeElement(int ElementsNum = 1);
+	void AddSnakeElement(int ElementsNum = 2);
 	
 	void Move();
 
