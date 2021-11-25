@@ -34,11 +34,13 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\SnakeGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\Interactable.cpp.obj"
 "D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\PlayerPawnBase.cpp.obj"
 "D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\SnakeBase.cpp.obj"
 "D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\SnakeElementBase.cpp.obj"
 "D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\SnakeGame.cpp.obj"
 "D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\SnakeGameGameModeBase.cpp.obj"
+"D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\Interactable.gen.cpp.obj"
 "D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\PlayerPawnBase.gen.cpp.obj"
 "D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\SnakeBase.gen.cpp.obj"
 "D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\SnakeElementBase.gen.cpp.obj"
