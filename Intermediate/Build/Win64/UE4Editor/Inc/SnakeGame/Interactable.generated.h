@@ -85,7 +85,7 @@ public: \
 
 
 #define SnakeGame_Source_SnakeGame_Interactable_h_10_PROLOG
-#define SnakeGame_Source_SnakeGame_Interactable_h_21_GENERATED_BODY_LEGACY \
+#define SnakeGame_Source_SnakeGame_Interactable_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	SnakeGame_Source_SnakeGame_Interactable_h_13_SPARSE_DATA \
@@ -95,7 +95,7 @@ public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SnakeGame_Source_SnakeGame_Interactable_h_21_GENERATED_BODY \
+#define SnakeGame_Source_SnakeGame_Interactable_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	SnakeGame_Source_SnakeGame_Interactable_h_13_SPARSE_DATA \

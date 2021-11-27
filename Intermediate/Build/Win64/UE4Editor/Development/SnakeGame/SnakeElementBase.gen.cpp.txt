@@ -2,4 +2,6 @@ D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\Snake
 C:\UE4\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\UE4\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 D:\Snake Game UE4\SnakeGame\Source\SnakeGame/SnakeElementBase.h
+D:\Snake Game UE4\SnakeGame\Source\SnakeGame\Interactable.h
+D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\Interactable.generated.h
 D:\Snake Game UE4\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\SnakeElementBase.generated.h
