@@ -7,6 +7,6 @@
 
 void IInteractable::Interact(AActor* Interactor, bool bIsHead)
 {
-
+	 
 
 }

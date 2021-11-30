@@ -34,7 +34,9 @@ void AFood::Interact(AActor* Interactor, bool bIsHead)
 		if (IsValid(Snake))
 		{
 			Snake->AddSnakeElement();
+			
 		}
+		this->Destroy();
 	}
 }
 

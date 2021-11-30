@@ -21,7 +21,7 @@ void ASnakeBase::BeginPlay()
 {
 	Super::BeginPlay();
 	SetActorTickInterval(MovementSpeed);
-	AddSnakeElement(5);
+	AddSnakeElement(3);
 	
 }
 
@@ -104,3 +104,9 @@ void ASnakeBase::SnakeElementOverlap(ASnakeElementBase* OverlappedElement,AActor
 	}
 }
 
+void ASnakeBase::SpeedChange()
+{
+
+	MovementSpeed -= 0.2;
+
+}
